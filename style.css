@@ -1,0 +1,393 @@
+body{
+    margin: 0%;
+}
+
+#sec1{
+    background-image: url(./joey-banks-YApiWyp0lqo-unsplash.jpg);
+    background-size: 100%;
+    background-position: center;
+ padding: 7% ;
+}
+
+.div1{
+    display: flex;
+    margin-left: 5%;
+}
+
+.div2{
+    color: white;
+    width: 500px;
+  height: 300px;
+}
+
+.div2 h1{
+    font-size: 50px;
+    width: 550px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.div2 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.div2 p{
+    width: 750px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.maindiv{
+    background-color: rgb(240, 220, 5);
+    color: rgb(12, 12, 12);
+    width: 350px;
+    padding: 1%;
+    margin-left: 28%;
+    padding-bottom: 4%;
+  border-radius: 40px;
+
+
+}
+
+.div3{
+  margin-left: 8%;
+  margin-top: 10px;
+  border-radius: 40px;
+  
+  
+}
+.div3 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.div3 input{
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.div3 textarea{
+    margin-top: 10px;
+
+    width: 282px;
+    height: 70px;
+}
+
+.div3 button{
+    background-color: black;
+   opacity: 90%;
+   color: white;
+    margin-top: 10px;
+    padding: 3%;
+    width: 150px;
+
+}
+
+@media (max-width:700px) {
+  
+  
+ 
+    .div1{
+        flex-direction: column;
+    }
+
+    .div2 p{
+        width: 400px;
+    }
+
+    .maindiv{
+       display: none;
+    }
+
+
+    .div2 h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: none;
+    }
+    
+}
+
+
+#sec2{
+    display: flex;
+}
+
+.div5{
+    padding-top: 8%;
+    margin-left: 5%;
+}
+
+.div5 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+
+   
+}
+.div5 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+
+    width: 650px;
+}
+
+.div5 button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    background-color: black;
+    opacity: 90%;
+    color: white;
+     margin-top: 10px;
+     padding: 2%;
+     width: 150px;
+}
+
+@media (max-width:700px) {
+    #sec2{
+       flex-direction: column;
+
+       
+    }
+
+    
+.div5 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+
+   
+}
+.div5 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+    width: 350px;
+}
+    
+    
+}
+
+#sec3{
+    background-image: url(./dan-gold-N7RiDzfF2iw-unsplash.jpg);
+    background-size: 100%;
+    /* padding: 4%; */
+    padding-top: 5%;
+    opacity: 100% black;
+    color: rgb(255, 255, 255);
+}
+
+.div6{
+    text-align: center;
+}
+
+.div6 h1{
+    font-size: 25px;
+}
+.div6 p{
+    width: 500px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 34%;
+    /* color: white; */
+    
+
+}
+
+
+.div7{
+    display: flex;
+   padding: 5%;
+   text-align: center;
+   font-size: 20px;
+  margin-left: 5%;
+
+
+}
+
+.div8 i{
+    font-size: 40px;
+    opacity: 90%  ;
+ 
+}
+
+.div8 h1{
+    opacity: 900px  ;
+
+}
+
+.div8 p{
+    width: 300px;
+    opacity: 90%  ;
+
+}
+
+@media (max-width: 700px) {
+    .div7{
+     flex-direction: column;
+       /* padding: 5%; */
+       /* text-align: center; */
+       /* font-size: 20px;
+      margin-left: 5%; */
+
+  
+    
+    }
+
+
+    .div6 p{
+        width: 500px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 14%;
+        
+    
+    }
+
+    .div8 p{
+        text-align: center;
+        margin-left: 22%;
+        width: 300px;
+        opacity: 90%  ;
+    
+    }
+}
+
+#sec4{
+padding-top: 6%;
+padding-bottom: 6%;
+}
+
+.div9{
+    display: flex;
+    padding-top: 5%;
+    margin-left: 30%;
+}
+
+.div9 li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 1%;
+
+}
+
+.div10{
+padding-top: 5%;
+margin-left: 12%;
+}
+
+.div11 img{
+    margin: 10px;
+  
+}
+
+
+#sec5{
+    background-color: rgb(70, 67, 67);
+    color: white;
+
+    display: flex; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 18%;
+}
+
+.div12{
+    width: 400px;
+}
+
+.div13 {
+    width: 400px;
+}
+
+.div14{
+    display: flex;
+}
+
+
+
+.div14 i{
+    margin-left: 60%;
+    margin-top: 3%;
+}
+
+.pera{
+    width: 400px;
+}
+
+.maindiv2{
+    margin-left: 10%;
+}
+
+.div15{
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+.div15 img{
+    width: 80px;
+    height: 90px;
+    border: 8px solid white;
+}
+
+
+.pera1{
+    text-align: center;
+    width: 400px;
+}
+
+@media (max-width:700px) {
+    #sec5{
+        flex-direction: column;
+    }
+
+    .maindiv2{
+        margin-top: 10%;
+    }
+
+    #sec7{
+     
+    display: none;
+        
+    }
+    
+}
+
+#sec6{
+    background-image: 100%;
+}
+.icons{
+    margin-left: 55%;
+    display: flex;
+    margin-top: 2%;
+}
+
+.div16{
+    margin-left: 4%;
+    font-size: 20px;
+}
+
+.icons i{
+    color: white;
+    margin-left: 50%;
+ 
+    
+}
+
+#sec7{
+    display: flex;
+    background-color: black;
+
+    color: white;
+}
+
+.btn{
+    height: 28px;
+    background-color: rgb(63, 62, 62);
+
+    width: 28px;
+    color: white;
+    margin-left: 14%;
+    position: relative;
+    top: 30px;
+}
+
+
